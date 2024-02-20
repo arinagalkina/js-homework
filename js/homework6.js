@@ -3,7 +3,7 @@
 //загальну кількість символів. Результат виведіть в консоль.
 const email = 'arina.galkina1708@icloud.com';
 
-console.log(email.indexOf( '@' ));
+console.log(email.includes( '@' ));
 
 console.log(email.length + ' символів');
 
