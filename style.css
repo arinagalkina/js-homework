@@ -1,0 +1,25 @@
+.btn__change {
+    background-color: #827070;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 300;
+}
+.add__styles {
+    background-color: #573f3f;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.styled__button 
+{
+    font-size: large;
+    color: #827070;
+    font-weight: bold;
+}
