@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>js</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- Створити розмітку  з заголовком та
 зображенням. За допомогою JavaScript
 отримати доступ до зображення та змінити
 значення атрибута "src" на шлях до іншого зображення. -->
-<!-- <section class="section">
+    <!-- <section class="section">
     <h1 class="title">Hello everyone!</h1>
     <img src="./icecream-2x-desc.png" alt="icecream">
 </section>
@@ -23,12 +23,10 @@
     та змінити значення атрибута "href" на нову URL-адресу.
     акож отримати доступ до зображення та додати новий атрибут 
     "alt" з описом зображення. -->
-<!-- <section class="section2"></section> -->
+    <!-- <section class="section2"></section> -->
 
-
-
-<!-- HOMEWORK 9  -->
- <p>Напишіть скрипт зміни кольору кнопки при
+    <!-- HOMEWORK 9  -->
+    <!-- <p>Напишіть скрипт зміни кольору кнопки при
 натискані на неї.</p>
 <button class="btn__change remove__change" >
   press to change color
@@ -59,17 +57,39 @@
 
 
     <input class="input" type="text" placeholder="type something">
-    <button class="send"> send</button>
+    <button class="send"> send</button> -->
+
+    <!-- HOMEWORK 10 -->
+
+    <button class="button" data-action="open-modal">Відкрити модалку</button>
 
 
+    <div class="backdrop js-backdrop">
 
+      <div class="modal">
 
-
-
-
-
-
+        <h2>Modal window</h2>
+   
+        <p>
+          In user interface design for computer applications, a modal
+          window is  a graphical control element subordinate to an
+          application's main window. It creates a mode that disables
+          the main window but keeps itvisible, with the modal window
+          as a child window in front of it. Users must interact with
+          the modal window before they can return to the parent
+          application. This avoids interrupting the workflow on the main 
+          window. Modal windows are sometimes called heavy windows or modal 
+        </p>
+       
+        <button type="button" class="button" data-action="close-modal">
+           Закрити 
+        </button>
+       
+      </div>
+      
+    </div>
+    <script src="./js/homework10.js"></script>
   </body>
   <!-- <script src="./js/homework1.js"></script> -->
-  <script src="./js/homework9.js"></script>
+  
 </html>
