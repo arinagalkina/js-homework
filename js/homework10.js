@@ -49,3 +49,22 @@ validationInput.addEventListener('blur', function () {
         validationInput.style.borderColor = 'red';
     }
 });
+
+//Створити форму, після сабміту виводити на
+// екран повідомлення 
+//‘Ви зареєструвалися успішно! Дякую!’
+
+const btnSubmit = document.querySelector('.submit');
+ const modal = document.querySelector('.modal');
+
+
+ const textControl = document.getElementById('font-size-control');
+
+ const changeText = document.getElementById('text');
+
+ textControl.addEventListener('input', function () {
+   changeText.style.fontSize = textControl.value + 'px' 
+ })
+
+
+
