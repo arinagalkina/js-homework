@@ -98,7 +98,7 @@
 
 
     <!-- HOMEWORK 11 -->
-    <input type="text" id="field1" placeholder="Введіть значення">
+    <!-- <input type="text" id="field1" placeholder="Введіть значення">
     <input type="text" id="field2" placeholder="Введіть значення">
     <button onclick="checkFields()">Перевірити</button>
 
@@ -126,8 +126,60 @@
   <input type="email" id="emailField" placeholder="Email"><br>
   <input type="password" id="passwordField" placeholder="Пароль"><br>
   <button type="button" id="submitButton">Перевірити</button>
+</form> -->
+
+
+<!-- HOMEWORK 12 -->
+
+<h2>1</h2>
+<form>
+  <label for="drinks">Оберіть напій:</label>
+  <select id="drinks">
+      <option value="coffee">Кава</option>
+      <option value="tea">Чай</option>
+      <option value="juice">Сік</option>
+  </select>
 </form>
-    <script src="./js/homework11.js"></script>
+<div id="message"></div>
+
+
+<h2>2</h2>
+
+<input type="text" id="dayInput" placeholder="Введіть день тижня">
+    <button id="checkButton">Перевірити</button>
+    <div id="dayMessage"></div>
+<h2>3</h2>
+
+<input type="number" id="monthInput" placeholder="Введіть номер місяця">
+    <button id="checkSeasonButton">Перевірити</button>
+    <div id="seasonMessage"></div>
+
+<h2>4</h2>
+<input type="number" id="monthInputDay" placeholder="Введіть номер місяця">
+    <button id="checkDaysButton">Перевірити</button>
+    <div id="daysMessage"></div>
+
+
+<h2>5</h2>
+
+<input type="text" id="colorInput" placeholder="Введіть назву кольору">
+    <button id="checkActionBtn">Перевірити</button>
+    <div id="actionMessage"></div>
+
+    <h2>6</h2>
+    <input type="number" id="num1" placeholder="Введіть перше число">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2" placeholder="Введіть друге число">
+    <button id="calculateBtn">Обчислити</button>
+    <div id="result"></div>
+
+    
+    <script src="./js/homework12.js"></script>
   </body>
   <!-- <script src="./js/homework1.js"></script> -->
 </html>
