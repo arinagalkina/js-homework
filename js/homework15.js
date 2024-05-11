@@ -20,6 +20,11 @@ console.log(arrayElements.join(', '));
 
 
 
+const fruits = ['kiwi', 'apple', 'kiwi', 'orange']
+
+
+
+
 
 //2. Працюємо з колекцією карток в trello.
 // Метод splice() (можна використати інші методи)
