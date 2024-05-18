@@ -25,13 +25,11 @@ const bankAccount = {
   },
 };
 
-// Приклад використання
-let action;
+
+let actionn;
 do {
-  action = prompt(
-    "Оберіть дію: 1 - Поповнити рахунок, 2 - Зняти гроші, 3 - Переглянути баланс, 4 - Вийти"
-  );
-  switch (action) {
+  actionn = prompt( "Оберіть дію: 1 - Поповнити рахунок, 2 - Зняти гроші, 3 - Переглянути баланс, 4 - Вийти" );
+  switch (actionn) {
     case "1":
       bankAccount.deposit();
       break;
@@ -47,7 +45,7 @@ do {
     default:
       alert("Невірний вибір, спробуйте ще раз");
   }
-} while (action !== "4");
+} while (actionn !== "4");
 
 const weather = {
   temperature: 0,
@@ -113,7 +111,7 @@ const movie = {
         return this.rating > 8;
     },
     displayInfo: function() {
-        let info = `Title: ${this.title}Director: ${this.director}Year: ${this.year}\nRating: ${this.rating}`;
+        let info = `Title: ${this.title}Director: ${this.director}Year: ${this.year}Rating: ${this.rating}`;
         if (this.isHighlyRated()) {
             alert(info + "Цей фільм має високий рейтинг.");
         } else {
